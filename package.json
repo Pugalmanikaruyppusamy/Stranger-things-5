@@ -2,8 +2,7 @@
   "name": "st-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://your-username.github.io/react-project-name",
-
+  "homepage": "https://github.com/Pugalmanikaruyppusamy/Stranger-things-5",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -14,17 +13,14 @@
     "react-dom": "^19.2.3",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
-   
-
-    
   },
   "scripts": {
     "start": "react-scripts start",
-     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
