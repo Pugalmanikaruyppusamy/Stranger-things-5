@@ -1,0 +1,99 @@
+.hero {
+    height: 100vh;
+    background-image: url('./images/will.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+  }
+  
+  .fire-reveal {
+    background-position: 40% 7% !important;
+    position: absolute;
+    inset: 0;
+    background-image: url('./images/vecna.jpeg');
+    background-size: cover;
+    background-position: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.55s ease;
+    --tx: calc(var(--x) - 24px);
+  --ty: calc(var(--y) - 18px);
+ 
+    mask-image:
+    radial-gradient(circle 400px at var(--x) var(--y),
+      rgba(255,255,255,1) 0%,
+      rgba(255,255,255,0.6) 40%,
+      transparent 70%),
+    radial-gradient(circle 450px at calc(var(--x) + 50px) calc(var(--y) - 40px),
+      rgba(255,255,255,0.8) 0%,
+      rgba(255,255,255,0.4) 40%,
+      transparent 70%),
+    radial-gradient(circle 200px at calc(var(--x) - 50px) calc(var(--y) + 30px),
+      rgba(255,255,255,0.6) 0%,
+      rgba(255,255,255,0.3) 40%,
+      transparent 70%);
+  -webkit-mask-image:
+    radial-gradient(circle 400px at var(--x) var(--y),
+      rgba(255,255,255,1) 0%,
+      rgba(255,255,255,0.6) 40%,
+      transparent 70%),
+    radial-gradient(circle 450px at calc(var(--x) + 50px) calc(var(--y) - 40px),
+      rgba(255,255,255,0.8) 0%,
+      rgba(255,255,255,0.4) 40%,
+      transparent 70%),
+    radial-gradient(circle 400px at calc(var(--x) - 50px) calc(var(--y) + 30px),
+      rgba(255,255,255,0.6) 0%,
+      rgba(255,255,255,0.3) 40%,
+      transparent 70%);
+
+  animation: pulseBlob 3s ease-in-out infinite;
+}
+
+.fire-reveal.active {
+  opacity: 1;
+}
+
+@keyframes pulseBlob {
+  0%, 100% {
+    filter: blur(0px);
+  }
+  50% {
+    filter: blur(0px);
+  }
+}
+
+ 
+  .left h1{
+     position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+font-size: 70px;
+color:white;
+text-shadow:
+0 0 10px red,
+0 0 20px red;
+  }
+
+ 
+  
+  .right h1{
+    position: absolute;
+    bottom:10px;
+    right:0px;
+    padding-left:50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    color: white;
+    width: 470px;
+    text-shadow:
+    0 0 100px red,
+    0 0 20px red;
+      }
+      
+      
