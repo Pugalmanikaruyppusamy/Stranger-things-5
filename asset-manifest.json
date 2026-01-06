@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Pugalmanikaruyppusamy/Stranger-things-5/static/css/main.f5eb15d5.css",
-    "main.js": "/Pugalmanikaruyppusamy/Stranger-things-5/static/js/main.823d9d47.js",
-    "static/js/453.2b548d33.chunk.js": "/Pugalmanikaruyppusamy/Stranger-things-5/static/js/453.2b548d33.chunk.js",
-    "static/media/vecna.jpeg": "/Pugalmanikaruyppusamy/Stranger-things-5/static/media/vecna.da0f7ca0e66037a6a115.jpeg",
-    "static/media/will.jpeg": "/Pugalmanikaruyppusamy/Stranger-things-5/static/media/will.a21b3205ab7d40b6fb28.jpeg",
-    "index.html": "/Pugalmanikaruyppusamy/Stranger-things-5/index.html",
-    "main.f5eb15d5.css.map": "/Pugalmanikaruyppusamy/Stranger-things-5/static/css/main.f5eb15d5.css.map",
-    "main.823d9d47.js.map": "/Pugalmanikaruyppusamy/Stranger-things-5/static/js/main.823d9d47.js.map",
-    "453.2b548d33.chunk.js.map": "/Pugalmanikaruyppusamy/Stranger-things-5/static/js/453.2b548d33.chunk.js.map"
+    "main.css": "/Stranger-things-1/static/css/main.11076f1f.css",
+    "main.js": "/Stranger-things-1/static/js/main.c9e853da.js",
+    "static/js/453.2b548d33.chunk.js": "/Stranger-things-1/static/js/453.2b548d33.chunk.js",
+    "static/media/vecna.jpeg": "/Stranger-things-1/static/media/vecna.da0f7ca0e66037a6a115.jpeg",
+    "static/media/will.jpeg": "/Stranger-things-1/static/media/will.a21b3205ab7d40b6fb28.jpeg",
+    "index.html": "/Stranger-things-1/index.html",
+    "main.11076f1f.css.map": "/Stranger-things-1/static/css/main.11076f1f.css.map",
+    "main.c9e853da.js.map": "/Stranger-things-1/static/js/main.c9e853da.js.map",
+    "453.2b548d33.chunk.js.map": "/Stranger-things-1/static/js/453.2b548d33.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5eb15d5.css",
-    "static/js/main.823d9d47.js"
+    "static/css/main.11076f1f.css",
+    "static/js/main.c9e853da.js"
   ]
 }
